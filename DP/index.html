@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dining Philosophers with Semaphores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="mainbody">
+    <div class="content">
+        <h1 class="head1">Dining Philosophers with Semaphores</h1>
+        <form id="simulationForm">
+            <div class="div">
+                <label class="label">Enter the number of Philosophers:</label>
+                <input type="number" id="pnum" min="2" max="10" class="inputbox">
+            </div>
+            <div class="div">
+                <label class="label">Enter the time gap (in seconds) between actions:</label>
+                <input type="number" id="timeGap" class="inputbox">
+            </div>
+            <div class="div">
+                <label class="label">Enter the amount of time (in seconds) for which a Philosopher should eat:</label>
+                <input type="number" id="eatTime" class="inputbox">
+            </div>
+        </form>
+        <p class="para">!! Please click the "Proceed" button only after the function of the "Start Simulation" button has been completed !!</p>
+
+        <button onclick="startSimulation()" id="startButton" class="btn">Start Simulation</button>
+        <button onclick="proceedSimulation()" id="proceedButton" class="btn" disabled>Proceed</button>
+        <br>
+        <br>
+        <p id="output" class="outputs"></p>
+
+        <h2 class="link"><a href="#" onclick="restartSimulation()">Restart the Simulator Anytime.</a></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

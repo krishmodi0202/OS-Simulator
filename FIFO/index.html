@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIFO Page Replacement Simulator</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body class="body">
+
+  <h1 class="head">FIFO Page Replacement Simulator</h1>
+  <br>
+
+  <form class="form">
+
+    <label class="form_label"> Enter the number of frames: </label>
+    <input type="number" id="num-frames" placeholder="Positive Integer only.">
+    <br>
+    <br>
+    <br>
+    <label class="form_label"> Enter the references: </label>
+    <input type="text" id="page-references" placeholder="e.g. 1,2,3,4....">
+
+  </form>
+  <br>
+
+  <div class="but">
+    <button onclick="runSimulation()">Initiate</button>
+    <p id="output0.0" class="output0"></p>
+    <p id="output0" class="output0"></p>
+    <div id="output1" class="output1"></div>
+    <br>
+  </div>
+
+  <div class="but">
+    <button onclick="calculateRatio()"> Calculate Hit and Miss Ratio </button>
+    <p id="output2" class="output2"></p>
+    <p id="output3" class="output3"></p>
+  </div>
+  <div class="but">
+    <button onclick="Reset()"> Force Restart </button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
