@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="algorithm.css">
+
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+    <title>Responsive Navigation Menu Bar</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen'></i>
+            <span class="logo navLogo"><a href="index.html">Team 7</a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">Team 7</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="teamInfo.html">About Us</a></li>
+                    <li><a href="algorithm.html">Algorithms</a></li>
+                    <li><a href="#">Stimulators</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../Final2/SJF/index.html">Shortest Job First</a></li>
+                            <li><a href="../Final2/DP/index.html">Dining Philosopher</a></li>
+                            <li><a href="../Final2/CLook/index.html">C-Look Disk Algorithm</a></li>
+                            <li><a href="../Final2/FIFO/index.html">First In First Out(FIFO)</a></li>
+                        
+                        </ul>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+
+                <div class="searchBox">
+                    <div class="searchToggle">
+                        <i class='bx bx-x cancel'></i>
+                        <i class='bx bx-search search'></i>
+                    </div>
+
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- card -->
+
+    <div class="container1">
+        <div class="wrapper">
+            <div class="banner-image1"> </div>
+            <h1> SHORTEST JOB FIRST</h1><br>
+            <p>The Shortest Job First Scheduling is the policy 
+                that holds the process on the waiting list with the shortest execution time.</p>
+        </div>
+        <div class="button-wrapper">
+            <button class="btn outline"><a href="https://www.geeksforgeeks.org/program-for-shortest-job-first-or-sjf-cpu-scheduling-set-1-non-preemptive/">THEORY</a></button>
+            <button class="btn fill"><a href="../Final2/SJF/index.html">STIMULATOR</a></button><p class="link2"></p>
+        </div>
+    </div>
+    </div>
+
+    <div class="container2">
+        <div class="wrapper">
+            <div class="banner-image2"> </div>
+            <h1> DINNING PHILOSOPHER USING SEMAPHORE</h1><br>
+            <p>The Dining Philosopher Problem states that K philosophers are seated around a circular table with one chopstick between
+            each pair of philosophers.</p>
+        </div>
+        <div class="button-wrapper">
+            <button class="btn outline"><a href="https://www.geeksforgeeks.org/dining-philosopher-problem-using-semaphores/">THEORY</a></button>
+            <button class="btn fill"><a href="../Final2/DP/index.html">STIMULATOR</a></button>
+        </div>
+    </div>
+    </div>
+    <!-- next 2 cards -->
+
+    <div class="container1">
+        <div class="wrapper">
+            <div class="banner-image3"> </div>
+            <h1> C-LOOK DISK ALGORITHM</h1><br>
+            <p>C-LOOK Disk Scheduling Algorithm is an enhanced version of both SCAN as well as LOOK disk scheduling algorithms.</p>
+        </div>
+        <div class="button-wrapper">
+            <button class="btn outline"><a href="https://www.geeksforgeeks.org/c-look-disk-scheduling-algorithm/">THEORY</a></button>
+            <button class="btn fill"><a href="../Final2/CLook/index.html">STIMULATOR</a></button>
+        </div>
+    </div>
+    </div>
+    
+    <div class="container2">
+        <div class="wrapper">
+            <div class="banner-image4"> </div>
+            <h1> FIRST IN FIRST OUT PAGE REPLACEMENT</h1><br>
+            <p>In an operating system that uses paging for memory management, a page replacement algorithm is needed to decide which
+            page needs to be replaced when a new page comes in.</p>
+        </div>
+        <div class="button-wrapper">
+            <button class="btn outline"><a href="https://www.geeksforgeeks.org/page-replacement-algorithms-in-operating-systems/">THEORY</a></button>
+            <button class="btn fill"><a href="../Final2/FIFO/index.html">STIMULATOR</a></button>
+        </div>
+    </div>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+    
+
+</body>
+
+</html>

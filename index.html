@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style.css">
+        
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    
+
+    <title>Responsive Navigation Menu Bar</title>
+</head>
+<body>
+    <nav> 
+        <div class="nav-bar"><video src="../Final2/Photos/TEAM 7.mp4" alt="" width="60" height="80" class="d-inline-block" muted autoplay></video>
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"><a href="index.html">Team 7</a></span>
+
+            <div class="menu">
+                
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">Team 7</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="teamInfo.html">About Us</a></li>
+                    <li><a href="algorithm.html">Algorithms</a></li>
+                    <li><a href="#">Stimulators</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../Final2/SJF/index.html">Shortest Job First</a></li>
+                        <li><a href="../Final2/DP2/index.html">Dining Philosopher</a></li>
+                        <li><a href="../Final2/CLook/index.html">C-Look Disk Algorithm</a></li>
+                        <li><a href="../Final2/FIFO/index.html">First In First Out(FIFO)</a></li>
+                        
+                    </ul>
+                </ul>
+                </li>
+            </div>
+
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+
+                <div class="searchBox">
+                   <div class="searchToggle">
+                    <i class='bx bx-x cancel'></i>
+                    <i class='bx bx-search search'></i>
+                   </div>
+
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="landing">
+        <div>
+            <h1 class="page-header">Stimulator <br> Project</h1>
+            <div class="link"> 
+                <a href="algorithm.html" ><button class="button_slide slide_right">Algorithms </button></a> 
+                <a href="teamInfo.html" ><button class="button_slide slide_right" style="width: 45%; margin-top: 10px; @media screen and (max-width: 790px) { width: 105%; }">Teams </button></a>
+            </div>
+        </div>
+        <div class="robott">
+            <img src="D:\2nd year\OS Lab\Final2\Photos\home.jpeg" class="robot">
+        </div>
+    </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>
